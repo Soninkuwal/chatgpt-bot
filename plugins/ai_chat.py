@@ -28,8 +28,8 @@ async def startcmd(client, message):
         )
     if FSUB and not await get_fsub(client, message):return
     await message.reply_photo(
-        photo="https://telegra.ph/file/595e38a4d76848c01b110.jpg",
-        caption=f"<b>Jai Shree Krishna {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/biisal>Bɪɪsᴀʟ</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
+        photo="https://graph.org/file/cfd480c2bdb7b3d2f44a1-bd93c08bfa2255ed9b.jpg",
+        caption=f"<b>Jai Shree Krishna {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/SONICKUWALUPDATEKANHA>KANHAIYA LAL MEENA KUWAL</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
     )
     return
 
@@ -51,12 +51,12 @@ async def broadcasting_func(client, message):
         if not user_id:
             continue
         try:
-            await to_copy_msg.copy(user_id , reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🎗️", url='https://t.me/bisal_files_talk')]]))
+            await to_copy_msg.copy(user_id , reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🎗️", url='https://t.me/SONICKUWALSSCBOT')]]))
             completed += 1
         except FloodWait as e:
             if isinstance(e.value , int | float):
                 await asyncio.sleep(e.value)
-                await to_copy_msg.copy(user_id , reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🎗️", url='https://t.me/bisal_files_talk')]]))
+                await to_copy_msg.copy(user_id , reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🎗️", url='https://t.me/SONICKUWALSSCBOT')]]))
                 completed += 1
         except Exception as e:
             print("Error in broadcasting:", e) 
@@ -67,7 +67,7 @@ async def broadcasting_func(client, message):
 
 
 
-@Client.on_message(filters.command("ai") & filters.chat(CHAT_GROUP)) # type:ignore
+@Client.on_message(filters.command("ips") & filters.chat(CHAT_GROUP)) # type:ignore
 async def grp_ai(client: Client, message: Message):
     query : str | None = (
         message.text.split(" ", 1)[1] if len(message.text.split(" ", 1)) > 1 else None
