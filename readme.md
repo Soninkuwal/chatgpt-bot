@@ -87,10 +87,10 @@ To set up the bot on your local machine, follow these steps:
 
 ### Commands
 ```
-/gen [prompt] - [prompt] Generate high-quality images using AI.
-/ips [text] - [text] Use this command in group chats to interact with the bot.
-/broadcast - Admins can broadcast a message to all users.
-/reset - Reset the chat history.
+gen [prompt] - [prompt] Generate high-quality images using AI.
+ips [text] - [text] Use this command in group chats to interact with the bot.
+broadcast - Admins can broadcast a message to all users.
+reset - Reset the chat history.
 ```
 ## Contribution
 
