@@ -10,7 +10,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN" , "")
 ADMIN = int(environ.get("ADMIN" , ""))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", ""))
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "")
-MONGO_URL = environ.get("MONGO_URL" , "mongodb://localhost:27017")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://filestorage1:U9gtO0MJU8GctVju@filestorage1.pjs6tc5.mongodb.net/?retryWrites=true&w=majority&appName=filestorage1")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "")
 )
