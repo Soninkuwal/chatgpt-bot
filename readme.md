@@ -86,12 +86,12 @@ To set up the bot on your local machine, follow these steps:
 
 
 ### Commands
-
-- `/gen [prompt]`: Generate high-quality images using AI.
-- `/ai [text]`: Use this command in group chats to interact with the bot.
-- `/broadcast`: Admins can broadcast a message to all users.
-- `/reset`: Reset the chat history.
-
+```
+/gen [prompt] - [prompt] Generate high-quality images using AI.
+/ips [text] - [text] Use this command in group chats to interact with the bot.
+/broadcast - Admins can broadcast a message to all users.
+/reset - Reset the chat history.
+```
 ## Contribution
 
 Feel free to fork the repository and contribute by creating pull requests. If you find any issues or have suggestions for improvements, please open an issue.
